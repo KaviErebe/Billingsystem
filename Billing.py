@@ -1,7 +1,7 @@
 import random
 import os
 import mysql.connector as my
-con=my.connect(host="localhost",user="root",passwd="Erebe@55")
+con=my.connect(host="localhost",user="root",passwd="root")
 cur=con.cursor()
 cur.execute("show databases")
 a=cur.fetchall()
